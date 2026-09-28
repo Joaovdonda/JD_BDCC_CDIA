@@ -1,0 +1,12 @@
+.venv
+site
+
+__pycache__/
+*.pyc
+db.sqlite3
+staticfiles/
+
+# credenciais - nunca versionar
+*.pem
+*credentials*.csv
+.env
