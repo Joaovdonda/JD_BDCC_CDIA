@@ -11,4 +11,4 @@ class TalhaoSerializer(serializers.ModelSerializer):
 class LoteSerializer(serializers.ModelSerializer):
     class Meta:
         model = Lote
-        fields = ['id', 'talhao', 'codigo', 'status', 'motivo', 'data_recepcao']
+        fields = ['id', 'talhao', 'codigo', 'peso_kg', 'status', 'motivo', 'data_recepcao']
